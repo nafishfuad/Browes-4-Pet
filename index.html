@@ -1,11 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Hi </h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Browse 4 Pets</title>
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="c1-assets/logo-header.png"
+      type="image/x-icon"
+    />
+    <!-- Google font cnd -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- font awesome cdn -->
+    <script src="https://kit.fontawesome.com/2034d5f04e.js" crossorigin="anonymous"></script>
+    <!-- Tailwind & daisy UI cnd -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style>
+      .sora-font {
+        font-family: "Sora", sans-serif;
+      }
+      .adlam-font {
+        font-family: "ADLaM Display", system-ui;
+      }
+      .primary-color {
+        color: #FFDC26;
+      }
+      .black-1 {
+        color: #111111
+      }
+    </style>
+  </head>
+  <body class="sora-font black-1 bg-[#FFF9F4]">
+    <!-- Header -->
+    <header>
+      <nav class="container mx-auto lg:max-w-[1400px] flex justify-between items-center py-7 px-8">
+        <div class="flex items-center gap-3">
+            <img src="c1-assets/logo-header.png" alt="site logo">
+            <div class="hidden md:block">
+                <h4 class="text-2xl">Browse<span class="primary-color">4</span>Pets</h4>
+            </div>
+        </div>
+        <div class="hidden lg:block">
+            <ul class="flex gap-8 text-xl">
+                <li>Find a Pet</li>
+                <li>Breeds</li>
+                <li>Contact us</li>
+            </ul>
+        </div>
+        <div class="hidden lg:block">
+            <div class="flex gap-4 items-center ">
+            <i class="fa-solid fa-bell text-2xl"></i>
+            <i class="fa-solid fa-magnifying-glass text-2xl"></i>
+            <button class="btn border-[#FFDC26] hover:bg-amber-200 text-xl">Warning</button>
+            <button class="btn bg-[#FFDC26] text-xl">Register</button>
+            </div>
+        </div>
+        <div class="lg:hidden">
+            <i class="fa-solid fa-bars text-3xl"></i>
+        </div>
+      </nav>
+    </header>
+    <!-- main -->
+    <!-- Footer -->
+  </body>
 </html>
