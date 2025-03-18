@@ -42,13 +42,15 @@
   <body class="sora-font black-1 bg-[#FFF9F4]">
     <!-- Header -->
     <header>
-      <nav class="container mx-auto lg:max-w-[1400px] flex justify-between items-center py-7 px-8">
+      <nav class="container mx-auto lg:max-w-[1350px] flex justify-between items-center py-7 px-8">
+        <!-- Logo section -->
         <div class="flex items-center gap-3">
             <img src="c1-assets/logo-header.png" alt="site logo">
             <div class="hidden md:block">
                 <h4 class="text-2xl">Browse<span class="primary-color">4</span>Pets</h4>
             </div>
         </div>
+        <!-- navigation section -->
         <div class="hidden lg:block">
             <ul class="flex gap-8 text-xl">
                 <li>Find a Pet</li>
@@ -56,18 +58,35 @@
                 <li>Contact us</li>
             </ul>
         </div>
+        <!-- user section -->
         <div class="hidden lg:block">
             <div class="flex gap-4 items-center ">
             <i class="fa-solid fa-bell text-2xl"></i>
             <i class="fa-solid fa-magnifying-glass text-2xl"></i>
-            <button class="btn border-[#FFDC26] hover:bg-amber-200 text-xl">Warning</button>
-            <button class="btn bg-[#FFDC26] text-xl">Register</button>
+            <button class="btn border-[#FFDC26] hover:bg-amber-200 text-xl px-8 py-6">Warning</button>
+            <button class="btn bg-[#FFDC26] text-xl px-8 py-6">Register</button>
             </div>
         </div>
+        <!-- mobie hamburger section -->
         <div class="lg:hidden">
             <i class="fa-solid fa-bars text-3xl"></i>
         </div>
       </nav>
+      <!-- Banner -->
+       <div class="lg:relative container mx-auto lg:max-w-[1350px] my-10 px-8">
+          <!-- banner content -->
+           <div class="relative lg:absolute top-10 z-10"> 
+            <div class="lg:w-1/2 space-y-5">
+              <h1 class="adlam-font font-bold text-3xl lg:text-6xl">Pamper Your Pet, Because They Deserve the Bes</h1>
+              <p class="text-lg lg:text-xl">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+              <button class="btn bg-[#FFDC26] text-lg lg:text-xl px-8 py-6" type="button">Find a pet</button>
+             </div>
+           </div>
+          <!-- banner image -->
+           <div class="relative z-0">
+            <img class="-mt-4 lg:mt-0" src="c1-assets/cat-big.png" alt="" srcset="">
+           </div>
+       </div>
     </header>
     <!-- main -->
     <!-- Footer -->
