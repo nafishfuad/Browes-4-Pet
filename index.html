@@ -56,7 +56,7 @@
           <img src="c1-assets/logo-header.png" alt="site logo" />
           <div class="hidden md:block">
             <h4 class="text-2xl">
-              Browse<span class="primary-color">4</span>Pets
+              Browse<span class="primary-color font-semibold">4</span>Pets
             </h4>
           </div>
         </div>
@@ -78,7 +78,7 @@
             >
               Warning
             </button>
-            <button class="btn bg-[#FFDC26] text-xl px-8 py-6">Register</button>
+            <button class="btn bg-[#FFDC26] hover:bg-amber-100 text-xl px-8 py-6">Register</button>
           </div>
         </div>
         <!-- mobie hamburger section -->
@@ -99,7 +99,7 @@
               your furry friends. Shop now and make tails wag with joy!
             </p>
             <button
-              class="btn bg-[#FFDC26] text-lg lg:text-xl px-8 py-6"
+              class="btn bg-[#FFDC26] hover:text-[#FFDC26] hover:bg-white text-lg lg:text-xl px-8 py-6"
               type="button"
             >
               Find a pet
@@ -118,8 +118,8 @@
       </div>
     </header>
     <!-- main -->
-    <main class="container mx-auto lg:max-w-[1350px] space-y-32 px-2 lg:px-0">
-      <!-- section 1 -->
+    <main class="relative container mx-auto lg:max-w-[1350px] space-y-32 px-2 lg:px-0 pb-72">
+      <!-- Browse By Categories -->
       <section class="mt-32 space-y-9">
         <h2 class="adlam-font text-center md:text-start text-4xl font-bold">Browse By Categories</h2>
         <!-- Categories of pets   -->
@@ -127,7 +127,7 @@
           class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3 lg:gap-6"
         >
           <!-- Categorie 1 -->
-          <div class="card bg-[#F9DF8A]">
+          <div class="card bg-[#F9DF8A] hover:bg-[#e9daa7]">
             <figure class="mx-auto mt-10 rounded-full">
               <img
                 src="c1-assets/cat-cartoon.png"
@@ -141,7 +141,7 @@
             </div>
           </div>
           <!-- Categorie 2 -->
-          <div class="card bg-[#F9DF8A]">
+          <div class="card bg-[#F9DF8A] hover:bg-[#e9daa7]">
             <figure class="mx-auto mt-10 rounded-full">
               <img
                 src="c1-assets/fish-cartoon.png"
@@ -155,7 +155,7 @@
             </div>
           </div>
           <!-- Categorie 3 -->
-          <div class="card bg-[#F9DF8A]">
+          <div class="card bg-[#F9DF8A] hover:bg-[#e9daa7]">
             <figure class="mx-auto mt-10 rounded-full">
               <img
                 src="c1-assets/cat-cartoon.png"
@@ -169,7 +169,7 @@
             </div>
           </div>
           <!-- Categorie 4 -->
-          <div class="card bg-[#F9DF8A]">
+          <div class="card bg-[#F9DF8A] hover:bg-[#e9daa7]">
             <figure class="mx-auto mt-10 rounded-full">
               <img
                 src="c1-assets/bird-cartoon.png"
@@ -183,7 +183,7 @@
             </div>
           </div>
           <!-- Categorie 5 -->
-          <div class="card bg-[#F9DF8A]">
+          <div class="card bg-[#F9DF8A] hover:bg-[#e9daa7]">
             <figure class="mx-auto mt-10 rounded-full">
               <img
                 src="c1-assets/mouse-cartoon.png"
@@ -199,7 +199,7 @@
             </div>
           </div>
           <!-- Categorie 6 -->
-          <div class="card bg-[#F9DF8A]">
+          <div class="card bg-[#F9DF8A] hover:bg-[#e9daa7]">
             <figure class="mx-auto mt-10 rounded-full">
               <img
                 src="c1-assets/rabbit-cartoon.png"
@@ -216,7 +216,7 @@
         <div></div>
       </section>
 
-      <!-- section 2 -->
+      <!-- Trending Pet Products -->
       <section class="mt-32 space-y-9">
         <h2 class="adlam-font text-center md:text-start text-4xl font-bold">Trending Pet Products</h2>
         <!-- Products Section   -->
@@ -225,9 +225,9 @@
             <div class="card bg-[#F9DF8A] shadow-sm max-w-[420px] px-8 pt-11 mx-auto">
               <div class="card-body">
                 <h2 class="card-title text-3xl font-bold">T- Shirt For Dogs</h2>
-                <p>Discover a world of treats, toys, and essentials handpicked for </p>
+                <p>Discover a world of treats, toys, and essentials handpicked for</p>
                 <div class="card-actions">
-                  <button class="btn m">Buy Now</button>
+                  <button class="btn hover:bg-[#FFDC26] hover:text-white">Buy Now</button>
                 </div>
               </div>
               <figure class="!justify-end -mt-16">
@@ -237,7 +237,7 @@
               </figure>
             </div>
           <!-- Right cards section -->
-          <div class="grid gap-5 flex-grow-1  grid-cols-2 md:grid-cols-3">
+          <div class="grid gap-2 lg:gap-5 flex-grow-1  grid-cols-2 md:grid-cols-3">
             <!-- card 1 -->
             <div class="card card-side items-center space-x-4 pl-4 py-4 bg-white hover:shadow-sm">
               <figure class="w-16 h-16 bg-[#FFF9F4] justify-center items-center">
@@ -250,7 +250,7 @@
                   <i class="fa-solid fa-star text-amber-400"></i>
                   <p>4.5</p>
                 </div>
-                <h2 class="card-title text-xl">Pet Bed</h2>
+                <h2 class="card-title text-lg md:text-xl font-bold">Pet Bed</h2>
                 <p>$39.99</p>
               </div>
             </div>
@@ -266,7 +266,7 @@
                   <i class="fa-solid fa-star text-amber-400"></i>
                   <p>4.5</p>
                 </div>
-                <h2 class="card-title text-xl">Pet Bed</h2>
+                <h2 class="card-title text-lg md:text-xl font-bold">Pet Bed</h2>
                 <p>$39.99</p>
               </div>
             </div>
@@ -274,7 +274,7 @@
             <div class="card card-side items-center max-w-[275px] space-x-4 pl-4 py-4 bg-white hover:shadow-sm">
               <figure class="w-16 h-16 bg-[#FFF9F4] justify-center items-center">
                 <img
-                  src="c1-assets/rabbit-cartoon.png"
+                  src="c1-assets/bird-cartoon.png"
                   alt="Movie" class="w-12 h-12" />
               </figure>
               <div class="">
@@ -282,7 +282,7 @@
                   <i class="fa-solid fa-star text-amber-400"></i>
                   <p>4.5</p>
                 </div>
-                <h2 class="card-title text-xl">Pet Bed</h2>
+                <h2 class="card-title text-lg md:text-xl font-bold">Pet Bed</h2>
                 <p>$39.99</p>
               </div>
             </div>
@@ -298,7 +298,7 @@
                   <i class="fa-solid fa-star text-amber-400"></i>
                   <p>4.5</p>
                 </div>
-                <h2 class="card-title text-xl">Pet Bed</h2>
+                <h2 class="card-title text-lg md:text-xl font-bold">Pet Bed</h2>
                 <p>$39.99</p>
               </div>
             </div>
@@ -314,7 +314,7 @@
                   <i class="fa-solid fa-star text-amber-400"></i>
                   <p>4.5</p>
                 </div>
-                <h2 class="card-title text-xl">Pet Bed</h2>
+                <h2 class="card-title text-lg md:text-xl font-bold">Pet Bed</h2>
                 <p>$39.99</p>
               </div>
             </div>
@@ -330,7 +330,7 @@
                   <i class="fa-solid fa-star text-amber-400"></i>
                   <p>4.5</p>
                 </div>
-                <h2 class="card-title text-xl">Pet Bed</h2>
+                <h2 class="card-title text-lg md:text-xl font-bold">Pet Bed</h2>
                 <p>$39.99</p>
               </div>
             </div>
@@ -346,7 +346,7 @@
                   <i class="fa-solid fa-star text-amber-400"></i>
                   <p>4.5</p>
                 </div>
-                <h2 class="card-title text-xl">Pet Bed</h2>
+                <h2 class="card-title text-lg md:text-xl font-bold">Pet Bed</h2>
                 <p>$39.99</p>
               </div>
             </div>
@@ -362,7 +362,7 @@
                   <i class="fa-solid fa-star text-amber-400"></i>
                   <p>4.5</p>
                 </div>
-                <h2 class="card-title text-xl">Pet Bed</h2>
+                <h2 class="card-title text-lg md:text-xl font-bold">Pet Bed</h2>
                 <p>$39.99</p>
               </div>
             </div>
@@ -378,7 +378,23 @@
                   <i class="fa-solid fa-star text-amber-400"></i>
                   <p>4.5</p>
                 </div>
-                <h2 class="card-title text-xl">Pet Bed</h2>
+                <h2 class="card-title text-lg md:text-xl font-bold">Pet Bed</h2>
+                <p>$39.99</p>
+              </div>
+            </div>
+            <!-- card 10 -->
+            <div class="md:hidden card card-side items-center max-w-[275px] space-x-4 pl-4 py-4 bg-white hover:shadow-sm">
+              <figure class="w-16 h-16 bg-[#FFF9F4] justify-center items-center">
+                <img
+                  src="c1-assets/bird-cartoon.png"
+                  alt="Movie" class="w-12 h-12" />
+              </figure>
+              <div class="">
+                <div class="flex items-center space-x-3">
+                  <i class="fa-solid fa-star text-amber-400"></i>
+                  <p>4.5</p>
+                </div>
+                <h2 class="card-title text-lg md:text-xl font-bold">Pet Bed</h2>
                 <p>$39.99</p>
               </div>
             </div>
@@ -422,8 +438,66 @@
       </section>
 
       <!-- section 4 -->
-      <section></section>
+      <section class="absolute w-full -bottom-64 left-0 px-2">
+        <!-- pawsome news -->
+        <div class="flex flex-col lg:flex-row bg-[#FFF9F4] rounded-2xl md:space-x-28 py-10 md:px-4 ">
+          <!-- photo area -->
+          <div class="flex justify-center md:justify-start md:w-4/10">
+            <img class="md:pl-5 lg:pl-20 w-1/2 md:w-full" src="c1-assets/cute-pet-mid.png" alt="dog pic">
+          </div>
+          <!-- content area -->
+          <div class="md:w-6/10 space-y-5 content-center">
+            <h3 class="adlam-font text-center md:text-start text-2xl md:text-4xl font-bold">Get Pawsome News!</h3>
+            <p class="md:text-xl text-center md:text-start">Exclusive training tips, ticks, product deals and more.</p>
+            <div class="flex justify-center md:justify-start">
+              <input class="text-sm md:text-base md:my-5 py-3 md:py-5 px-10 md:px-20 rounded-xl bg-white border-none" type="email" placeholder="Enter email....">
+            </div>
+            <div class="flex justify-center md:justify-start">
+              <button class="btn bg-[#FFDC26] hover:bg-amber-100 text-sm md:text-xl px-8 py-6 rounded-xl border-none">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <!-- Footer -->
+    <section class="bg-[#FFED92] py-36">
+      <footer class="container mt-30 mx-auto lg:max-w-[1350px] footer sm:footer-horizontal bg-base-200 text-base-content p-10 bg-[#FFED92]">
+        <aside>
+          <div class="flex items-center gap-3">
+            <img src="c1-assets/logo-footer.png" alt="site logo" />
+            <div class="hidden md:block">
+              <h4 class="text-2xl">
+                Browse<span class="primary-color font-semibold">4</span>Pets
+              </h4>
+            </div>
+          </div>
+          <p class="w-3/5 mt-3 text-xl">
+            Discover a world of treats, toys, and essentials handpicked for your furry friends
+          </p>
+        </aside>
+        <nav>
+          <a class="link link-hover text-xl">Find a pet</a>
+          <a class="link link-hover text-xl">Breeds</a>
+          <a class="link link-hover text-xl">Contact us</a>
+        </nav>
+        <nav class="my-auto space-y-2">
+          <h3 class="text-xl">Follow us</h3>
+          <div class="space-x-3">
+            <a href="#">
+              <i class="fa-brands fa-facebook text-3xl"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-instagram text-3xl"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-linkedin text-3xl"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-youtube text-3xl"></i>
+            </a>
+          </div>
+        </nav>
+      </footer>
+    </section>
   </body>
 </html>
